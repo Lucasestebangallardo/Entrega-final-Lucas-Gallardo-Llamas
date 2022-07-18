@@ -1,0 +1,152 @@
+/* SERVICIOS */
+
+/* PRIMERA SECCION */
+
+.tituloservicios{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: black;
+    & h1{
+        background-color: #364552;
+        color: rgb(219, 213, 213);
+    }
+}
+
+/* SEGUNDA SECCION */
+
+.actividadesycostos{
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    #imagenesul {
+        padding: 0;
+    }
+    & .tituloplan {
+        font-size: 25px;
+        background-color: aliceblue;
+        color: black;
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        border: double 2px black;
+    }
+    .costosimg{
+        width: 600px;
+    height: 350px;
+    }
+    &.carousel slide{
+        position: relative;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    & .carousel-indicators{
+        position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+    }
+    
+    &.carousel-indicators [data-bs-target]{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin-right: 15%;
+        margin-bottom: 1rem;
+        margin-left: 15%;
+        list-style: none;
+    }
+
+    & .carousel-control-prev{
+        cursor: pointer;
+        left: 0;
+        position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+    
+    }
+
+    & .carousel-control-next{
+        right: 0;
+        cursor: pointer;
+        position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+    
+   
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: #364552;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+}
+    }
+   
+
+/* TERCERA SECCION */
+#boton1{
+    box-sizing: border-box;
+    display: block;
+}
+
+/* CUARTA SECCION */
+
+.volver{
+    background-color: #364552;
+    margin: auto;
+    padding: 10px;
+    
+    .ir {
+        text-decoration: none;
+        color: white;
+    }
+
+}
+
+/* FIN SECCIONES */

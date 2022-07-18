@@ -1,0 +1,16 @@
+/* maps */
+
+$standar:(
+    color1:#364552,
+    color2:rgb(156, 165, 165),
+    color3:aliceblue,
+
+);
+
+.color2{
+    background-color: map-get($standar,color2);
+};
+
+.color3{
+    background-color: map-get($standar,color3 );
+}

@@ -1,0 +1,13 @@
+/* mixins */
+
+@mixin cambios($valor) {
+    -webkit-transform: $valor;
+    -o-transform: $valor;
+    -moz-transform: $valor;
+    transform: $valor;
+};
+
+#img-fluid{
+    @include cambios(scale(1.2))
+    
+}
