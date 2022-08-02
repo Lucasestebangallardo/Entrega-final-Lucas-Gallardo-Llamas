@@ -100,9 +100,8 @@ footer #img-fluid {
   background-color: #364552;
   color: rgb(219, 213, 213);
 }
-.titulo1 .img-fluid {
-  width: 500px;
-  margin: 5px;
+.titulo1 .mx-auto {
+  margin-bottom: 7px;
 }
 
 /* SEGUNDA SECCION */
@@ -129,10 +128,6 @@ footer #img-fluid {
   display: flex;
   justify-content: center;
   border: double 2px black;
-}
-.titulo2 .img-fluid {
-  width: 500px;
-  margin: 5px;
 }
 
 /* TERCERA SECCION */
@@ -177,11 +172,6 @@ footer #img-fluid {
   text-align: center;
   background-color: aliceblue;
   color: black;
-}
-.tituloconocenos .img-fluid {
-  width: 600px;
-  height: 400px;
-  margin: 15px;
 }
 
 /* SEGUNDA SECCION CONOCENOS */
@@ -281,10 +271,6 @@ footer #img-fluid {
   margin: 10px;
   padding: 10px;
   text-align: center;
-}
-.actividades3 .explicandoimg {
-  width: 500px;
-  margin-left: 450px;
 }
 
 /* TERCERA SECCION */

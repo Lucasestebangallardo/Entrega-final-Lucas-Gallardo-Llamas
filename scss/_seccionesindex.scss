@@ -7,10 +7,8 @@
         background-color: #364552;
         color: rgb(219, 213, 213);
     }
-    & .img-fluid{
-        width: 500px;
-        margin: 5px
-    }
+    & .mx-auto {
+        margin-bottom: 7px;}
 }
 
 /* SEGUNDA SECCION */
@@ -38,10 +36,7 @@
         justify-content: center;
         border: double 2px black;
     }
-    & .img-fluid{
-        width: 500px;
-        margin: 5px
-    }
+   
 }
 
 
