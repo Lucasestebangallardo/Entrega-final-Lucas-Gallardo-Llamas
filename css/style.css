@@ -325,10 +325,6 @@ footer #img-fluid {
   justify-content: center;
   border: double 2px black;
 }
-.actividadesycostos .costosimg {
-  width: 600px;
-  height: 350px;
-}
 .actividadesycostos.carousel slide {
   position: relative;
   box-sizing: border-box;

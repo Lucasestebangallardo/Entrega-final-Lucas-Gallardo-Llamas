@@ -10,6 +10,7 @@
     & h1{
         background-color: #364552;
         color: rgb(219, 213, 213);
+    
     }
 }
 
@@ -34,10 +35,7 @@
         justify-content: center;
         border: double 2px black;
     }
-    .costosimg{
-        width: 600px;
-    height: 350px;
-    }
+   
     &.carousel slide{
         position: relative;
         box-sizing: border-box;
